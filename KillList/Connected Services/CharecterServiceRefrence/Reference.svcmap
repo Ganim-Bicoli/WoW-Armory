@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="116ad932-a730-4405-b5e7-d98ce4577c74" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51314/CharecterService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CharecterService.xsd" MetadataType="Schema" ID="b255098d-28f6-49e5-a2c5-390ebfabec84" SourceId="1" SourceUrl="http://localhost:51314/CharecterService.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="8cc06d75-5872-4fe4-b331-32386dab49c1" SourceId="1" SourceUrl="http://localhost:51314/CharecterService.svc?wsdl" />
+    <MetadataFile FileName="CharecterService1.xsd" MetadataType="Schema" ID="556399ed-4262-40cb-b3ef-21cd7289607d" SourceId="1" SourceUrl="http://localhost:51314/CharecterService.svc?xsd=xsd0" />
+    <MetadataFile FileName="CharecterService2.xsd" MetadataType="Schema" ID="4b54b80c-83b9-4faf-af97-d702ebbfb723" SourceId="1" SourceUrl="http://localhost:51314/CharecterService.svc?xsd=xsd1" />
+    <MetadataFile FileName="CharecterService.disco" MetadataType="Disco" ID="96138453-c3b1-4554-b575-f2d33f0f105f" SourceId="1" SourceUrl="http://localhost:51314/CharecterService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

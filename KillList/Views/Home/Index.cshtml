@@ -1,0 +1,43 @@
+﻿@model List<KillList.CharecterServiceRefrence.CharecterData>
+
+<header>
+    <h2>KillList</h2>
+    <link href="~/Style/HomeStyle.css" rel="stylesheet" />
+</header>
+<body>
+    <div>
+        @foreach (var item in Model)
+        {
+            <div class="row-group">
+
+                <div class="group1">
+                    <div class="rg-info">
+                        <p>Name</p>
+                        <img id="RacePic" src="~/Image/OrcImg.png" alt="Alternate Text" />
+                        <p>Race</p>
+                    </div>
+                    <div class="rg-d1">
+                        <p>@Html.DisplayFor(x => item.Name)</p>
+                        <p>@Html.DisplayFor(x => item.Race)</p>
+                    </div>
+                    <div>
+                    </div>
+
+                </div>
+         
+                <div>
+                    <div class="rg-info1">
+                        <p>Class</p>
+                        <p>Spec</p>
+                    </div>
+                    <div class="rg-d2">
+                        <p>@Html.DisplayFor(x => item.Class)</p>
+                        <p id="Spec">@Html.DisplayFor(x => item.Spec)</p>
+                    </div>
+                </div>
+               
+              
+            </div>
+        }
+    </div>
+</body>
